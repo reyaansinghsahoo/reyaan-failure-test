@@ -7,7 +7,7 @@ with st.form("question 1"):
     n2=34
     s=n1+n2
     st.write("what is the sum of",n1," and ",n2)
-    a=s st.number_input("enter your answer", step=1)
+    a=st.number_input("enter your answer", step=1)
     if st.form_submit_buton("check awnswer"):
         st.write("your anwswer",a)
         st.write("actual anwswer:",s)
