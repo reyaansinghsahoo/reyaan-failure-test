@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("reyaan failure test")
 
-q=[1,2,3,4,5,6,7]
+q=[1,2,3,4,5,6,7,8,9,10]
 
 for c in q:
     st.write(c)
