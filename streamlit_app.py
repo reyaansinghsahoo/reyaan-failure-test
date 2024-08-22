@@ -5,7 +5,8 @@ st.title("reyaan failure test")
 q=[1,2,3,4,5,6,7,8,9,10]
 
 for c in q:
-    st.write(c)
+    st.write(1)
+st.write(2)
 
 with st.form("question 1"):
     n1=51
