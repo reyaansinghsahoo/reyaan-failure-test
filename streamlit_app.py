@@ -2,6 +2,11 @@ import streamlit as st
 
 st.title("reyaan failure test")
 
+q=[1,2,3]
+
+for c in q:
+    st.write(c)
+
 with st.form("question 1"):
     n1=51
     n2=34
